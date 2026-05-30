@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMax - Las Mejores Películas</title>
+    <meta name="description" content="Descubre las mejores películas del año.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body class="cuerpo">
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a href="#" class="navegacion__logo">Cine<span class="texto-primario">Max</span></a>
+            <ul class="navegacion__lista">
+                <li class="navegacion__item"><a href="#inicio" class="navegacion__enlace navegacion__enlace--activo">Inicio</a></li>
+                <li class="navegacion__item"><a href="#populares" class="navegacion__enlace">Populares</a></li>
+                <li class="navegacion__item"><a href="#estrenos" class="navegacion__enlace">Estrenos</a></li>
+            </ul>
+            <div class="navegacion__acciones">
+                <button class="boton boton--icono" aria-label="Buscar películas">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button class="boton boton--primario">Iniciar Sesión</button>
+            </div>
+            <button class="navegacion__hamburguesa" aria-label="Menú móvil">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <section id="inicio" class="hero">
+            <div class="hero__fondo" id="hero-fondo">
+                <div class="hero__degradado"></div>
+            </div>
+            <div class="hero__contenido contenedor">
+                <h1 class="hero__titulo" id="hero-titulo">Cargando...</h1>
+                <p class="hero__descripcion" id="hero-descripcion">Obteniendo la información de la película destacada.</p>
+                <div class="hero__botones">
+                    <button class="boton boton--primario boton--grande">
+                        <i class="fa-solid fa-play"></i> Reproducir
+                    </button>
+                    <button class="boton boton--secundario boton--grande">
+                        <i class="fa-solid fa-circle-info"></i> Más Información
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="populares" class="seccion-peliculas contenedor">
+            <div class="seccion-peliculas__encabezado">
+                <h2 class="seccion-peliculas__titulo">Películas Populares</h2>
+                <div class="seccion-peliculas__controles">
+                    <button class="boton-carrusel" id="btn-prev-populares" aria-label="Anterior">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="boton-carrusel" id="btn-next-populares" aria-label="Siguiente">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="carrusel-contenedor">
+                <div class="carrusel" id="carrusel-populares">
+                </div>
+            </div>
+        </section>
+
+        <section id="estrenos" class="seccion-peliculas contenedor seccion-peliculas--margen">
+            <h2 class="seccion-peliculas__titulo">Mejor Valoradas</h2>
+            <div class="cuadricula-peliculas" id="cuadricula-valoradas">
+            </div>
+            <div class="centrar-contenido mt-4">
+                <button class="boton boton--borde" id="btn-cargar-mas">Cargar Más</button>
+            </div>
+        </section>
+
+        <section class="llamado-accion">
+            <div class="contenedor llamado-accion__contenido">
+                <h2 class="llamado-accion__titulo">Disfruta en cualquier lugar</h2>
+                <p class="llamado-accion__texto">Películas, series y documentales ilimitados en tu teléfono, tablet, computadora y TV sin costo adicional.</p>
+                <button class="boton boton--primario boton--grande">Suscríbete Ahora</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor pie-pagina__contenido">
+            <div class="pie-pagina__columna">
+                <a href="#" class="pie-pagina__logo">Cine<span class="texto-primario">Max</span></a>
+                <p class="pie-pagina__descripcion">Tu plataforma de streaming premium para disfrutar de las mejores películas.</p>
+                <div class="pie-pagina__redes">
+                    <a href="#" class="pie-pagina__enlace-red" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="pie-pagina__enlace-red" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="pie-pagina__enlace-red" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="pie-pagina__columna">
+                <h3 class="pie-pagina__titulo-lista">Enlaces Útiles</h3>
+                <ul class="pie-pagina__lista">
+                    <li><a href="#" class="pie-pagina__enlace">Sobre Nosotros</a></li>
+                    <li><a href="#" class="pie-pagina__enlace">Soporte Técnico</a></li>
+                    <li><a href="#" class="pie-pagina__enlace">Preguntas Frecuentes</a></li>
+                </ul>
+            </div>
+            <div class="pie-pagina__columna">
+                <h3 class="pie-pagina__titulo-lista">Legal</h3>
+                <ul class="pie-pagina__lista">
+                    <li><a href="#" class="pie-pagina__enlace">Términos de Uso</a></li>
+                    <li><a href="#" class="pie-pagina__enlace">Política de Privacidad</a></li>
+                    <li><a href="#" class="pie-pagina__enlace">Preferencias de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pie-pagina__derechos">
+            <p>&copy; 2026 CineMax. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/api.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
