@@ -1,8 +1,8 @@
-# CineMax - Prueba de Maquetación Frontend
+ # CineMax - Prueba de Maquetación Frontend
 
 Este repositorio contiene una aplicación web de demostración (Single Page Application) construida desde cero. 
 
-**Este proyecto ha sido desarrollado específicamente para el equipo de Estrategia Segura S.A.S.** con el objetivo de demostrar mis habilidades técnicas, buenas prácticas y nivel de detalle como Desarrollador Frontend / Maquetador.
+**Este proyecto ha sido desarrollado específicamente ** con el objetivo de demostrar mis habilidades técnicas, buenas prácticas y nivel de detalle como Desarrollador Frontend / Maquetador.
 
 ## Contexto del Proyecto
 
@@ -32,4 +32,5 @@ Para esta demostración he optado por no utilizar ningún framework de terceros 
 
 ---
 
-Espero que este proyecto sea de su agrado y sirva como un buen reflejo del valor técnico que puedo aportar al equipo de **Estrategia Segura S.A.S.** Quedo a su entera disposición para cualquier duda o entrevista técnica.
+Espero que este proyecto sea de su agrado y sirva como un buen reflejo del valor técnico que puedo aportar al equipo Quedo a su entera disposición para cualquier duda o entrevista técnica.
+g
